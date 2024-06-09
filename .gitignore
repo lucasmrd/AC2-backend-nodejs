@@ -1,0 +1,51 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Diretório do ambiente
+.env
+
+# Diretório de dependências do Node
+node_modules/
+
+# Diretório de dependências instaladas pelo Yarn
+.yarn
+.pnp.*
+.yarnrc.yml
+__pycache__/
+
+# Cobertura de testes
+coverage/
+*.lcov
+
+# Diretório das configurações do editor/IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Diretórios temporários
+tmp/
+temp/
+
+# Sockets Unix
+*.sock
+
+# Dumps de banco de dados
+*.sql
+*.sqlite
+
+# Diretórios de relatórios
+reports/
+lerna-debug.log*
+
+# Configurações do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Construção de produção
+dist/
+build/
